@@ -56,3 +56,11 @@ div.locationOneDetails {
     margin-top: 50px;
     text-align: center;
 }
+
+div.locationTwoDetails {
+    width: 45%;
+    float: right;
+    border: 5px black solid;
+    margin-top: 50px;
+    text-align: center;
+}
