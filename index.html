@@ -1,21 +1,50 @@
 <html>
     <head>
     
-    <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div class="intro">
+        <div class="header">
             <h1>Company Name</h1>
-            <p>Location</p>
-            <p>Monday: Start - End</p>
-            <p>Tuesday: Start - End</p>
-            <p>Wednesday: Start - End</p>
-            <p>Thursday: Start - End</p>
-            <p>Friday: Start - End</p>
-            <p>Saturday: Start - End</p>
-            <p>Sunday: Start - End</p>
+            <a href="#locationsHoursPageLink" class="locationsHours">Locations and Hours </a>
+            <a href="strainsPage" class="Strains">Strains </a>
+            <a href="contactPage" class="contact">Contact Us </a>
         </div>
-        
-        <script src="js/script.js">
+
+        <div class="locationOne">
+            <div class="locationsOneHoursPage" id="mapOne"></div>
+            <div class="locationOneDetails">
+                <p class="locationOneStreet">610 S Chestnut St, Bristow, OK 74010</p>
+                <p class="locationOneHours">
+                    Monday: 9:00 am - 10:00 pm <br>
+                    Tuesday: 9:00 am - 10:00 pm <br>
+                    Wednesday: 9:00 am - 10:00 pm <br>
+                    Thursday: 9:00 am - 10:00 pm <br>
+                    Friday: 9:00 am - 10:00 pm <br>
+                    Saturday: 9:00 am - 10:00 pm <br>
+                    Sunday: 9:00 am - 10:00 pm
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="locationTwo">
+            <div class="locationsTwoHoursPage" id="mapTwo"></div>
+            <p class="locationTwoStreet">610 S Chestnut St, Bristow, OK 74010</p>
+            <p class="locationTwoHours">
+                Monday: 9:00 am - 10:00 pm <br>
+                Tuesday: 9:00 am - 10:00 pm <br>
+                Wednesday: 9:00 am - 10:00 pm <br>
+                Thursday: 9:00 am - 10:00 pm <br>
+                Friday: 9:00 am - 10:00 pm <br>
+                Saturday: 9:00 am - 10:00 pm <br>
+                Sunday: 9:00 am - 10:00 pm
+            </p>
+        </div>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" defer></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
+
