@@ -2,7 +2,7 @@ span {
     display: block;
 }
 
-div {
+div.bubble {
     background-color: green;
     border-radius: 50%;
     color: white;
