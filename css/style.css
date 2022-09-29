@@ -57,10 +57,25 @@ div.locationOneDetails {
     text-align: center;
 }
 
+div.locationTwo {
+    margin-top: 25px;
+}
+
+div#mapTwo {
+    height: 400px;
+    width: 50%;
+    float: right;
+}
+
 div.locationTwoDetails {
     width: 45%;
-    float: right;
+    float: left;
     border: 5px black solid;
     margin-top: 50px;
     text-align: center;
 }
+
+
+/* 
+Need to adjust layout when size is smaller than 574
+*/
