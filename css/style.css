@@ -21,24 +21,24 @@ p {
 }
 
 div#name {
-    margin-left: 40%;
+    margin-left: 51%;
 }
 div#strains {
-    margin-right: 40%;
+    margin-right: 51%;
     margin-top: 10px;
     -webkit-transform: skew(320deg);
 }
 
 div#locations {
     margin-top: 10px;
-    margin-left: 40%;
+    margin-left: 51%;
 }
 
 body {
     background-color: black;
 }
 
-div:hover {
+div.bubble:hover {
     background-color: red;
 }
 
