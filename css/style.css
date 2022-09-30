@@ -1,0 +1,35 @@
+html {
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    /* grid-template-columns: repeat(auto-fill, minmax(100x, 1fr)); */
+    grid-gap: 20px;
+}
+
+.card {
+    display: grid;
+    /* grid-template-rows: max-content 200px 1fr; */
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+div.cards > article.card {
+    border: solid 2px black;
+}
+
+div.cards > article.card {
+    text-align: center;
+}
+
+div.cards > article.card > p.cardHeaderDivsor {
+    border: solid black;
+    border-width: 2px 0 0 0;
+    margin: 0px;
+    height: 10px;
+}
