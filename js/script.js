@@ -1,6 +1,6 @@
 $(document).ready(function() {
     setupLinks();
-})
+});
 
 
 function setupLinks() {
@@ -26,7 +26,6 @@ function setupLinks() {
 
 function toggleDecks(deckList, newDisplay) {
     for (let index = 0; index < deckList.length; index++) {
-        const element = deckList[index];
-        $("."+element).css("display", newDisplay[index]);
+        $("."+deckList[index]).css("display", newDisplay[index]);
     }
 }
