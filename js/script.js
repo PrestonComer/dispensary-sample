@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 
 function setupLinks() {
-    $("#deals").width($("#locations").width());
+    $(".buttonLinks").width($("#locations").width()+40);
     $(".buttonLinks").removeClass("hidden");
 
     $("#products").on("click", function() {
