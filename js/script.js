@@ -1,26 +1,25 @@
 $(document).ready(function() {
-    setupLinks();
+    initialSetup();
+    clickEvents();
 });
 
 
-function setupLinks() {
+function initialSetup() {
     $(".buttonLinks").width($("#locations").width()+40);
     $(".buttonLinks").removeClass("hidden");
+}
 
+function clickEvents() {
     $("#products").on("click", function() {
-        toggleDecks(["locationsDeck", "strainsDeck"], ["none", "grid"]);
+        toggleDecks(["locationsDeck", "strainsDeck", "newsContainer"], ["none", "grid", "none"]);
     });
 
     $("#locations").on("click", function() {
-        toggleDecks(["locationsDeck", "strainsDeck"], ["grid", "none"]);
-    });
-
-    $("#deals").on("click", function() {
-        toggleDecks(["locationsDeck", "strainsDeck"], ["none", "none"]);
+        toggleDecks(["locationsDeck", "strainsDeck", "newsContainer"], ["grid", "none", "none"]);
     });
 
     $("#news").on("click", function() {
-        toggleDecks(["locationsDeck", "strainsDeck"], ["none", "none"]);
+        toggleDecks(["locationsDeck", "strainsDeck", "newsContainer"], ["none", "none", "flex"]);
     });
 }
 

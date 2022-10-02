@@ -92,6 +92,10 @@ hr {
     border: 2px solid black;
 }
 
+article.card > header > h2 {
+    margin: 10;
+}
+
 .indica {
     background-color: rgb(199, 39, 199);
 }
@@ -121,6 +125,47 @@ div.cards > article.card, p.cardHeaderDivsor, hr.strongHR {
 div.cards > article.card > header:not(.indica):not(.sativa):not(.hybrid) {
     background-color: #31f132;
     color: black;
+}
+
+div.newsContainer {
+    display: none;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+}
+div.newsContainer > p.postDate {
+    color: rgb(181, 175, 165);
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    margin: 10 0 0 0;
+}
+
+div.newsContainer > p {
+    font-weight: 300;
+    line-height: 24px;
+    font-family: Poppins;
+}
+
+div.newsContainer > h2.postHeader,
+div.newsContainer > p.postContent {
+    color: rgb(216, 212, 207);
+    font-size: 26px;
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    position: relative;
+    padding: 0 0 10 0;
+    line-height: normal;
+    margin: 0;
+}
+div.newsContainer > p.postContent {
+    font-size: 16px;
+}
+div.newsContainer > hr.strongHR {
+    width: 100%;
 }
 
 /* This is when on slightly smaller screens but not mobile */
