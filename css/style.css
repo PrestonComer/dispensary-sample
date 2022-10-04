@@ -171,7 +171,7 @@ div.newsContainer > hr.strongHR {
 }
 
 /* This is when on slightly smaller screens but not mobile */
-@media only screen and (max-width: 825px) {
+@media (width <= 825px) {
     div.flex-row:first-child {
         display: block;
         text-align: center;
@@ -188,7 +188,7 @@ div.newsContainer > hr.strongHR {
     }
 
     /* This is phones */
-    @media only screen and (max-width: 507px) {
+    @media (width <= 507px) {
         div.flex-body > div.flex-row > div.buttonLinks {
             display: block;
             margin: 0 auto 1 auto;
