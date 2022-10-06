@@ -188,7 +188,7 @@ div.newsContainer > hr.strongHR {
     }
 
     /* This is phones */
-    @media screen and (max-device-width: 507px) {
+    /* @media screen and (max-device-width: 507px) {
         div.flex-body > div.flex-row > div.buttonLinks {
             display: block;
             margin: 0 auto 1 auto;
@@ -200,6 +200,6 @@ div.newsContainer > hr.strongHR {
         div.buttonLinks > p#locations {
             margin: 5px 10px;
         }
-    }
+    } */
 }
 
