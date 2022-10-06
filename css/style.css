@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+    background-color: black !important;
+}
+
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
@@ -113,6 +118,11 @@ article.card > header > h2 {
     color: black;
 }
 
+.shake {
+    background-color: lightcoral;
+    color: black;
+}
+
 .cards.strainsDeck {
     display: none;
 }
@@ -127,7 +137,7 @@ div.cards > article.card, p.cardHeaderDivsor, hr.strongHR {
     border-color: white;
     margin-top: 10px;
 }
-div.cards > article.card > header:not(.indica):not(.sativa):not(.hybrid) {
+div.cards > article.card > header:not(.product) {
     background-color: #31f132;
     color: black;
 }
