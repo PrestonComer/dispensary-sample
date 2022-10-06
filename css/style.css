@@ -100,14 +100,17 @@ article.card > header > h2 {
 
 .indica {
     background-color: rgb(199, 39, 199);
+    color: black;
 }
 
 .sativa {
     background-color: #f6bb28;
+    color: black;
 }
 
 .hybrid {
     background-color: #31f132;
+    color: black;
 }
 
 .cards.strainsDeck {
@@ -169,6 +172,24 @@ div.newsContainer > p.postContent {
 div.newsContainer > hr.strongHR {
     width: 100%;
 }
+
+div.flex-row:first-child {
+    display: block;
+    text-align: center;
+}
+div.flex-body > div.flex-row > div.buttonLinks {
+    margin: 0 auto 0 auto;
+    width: 166.167px;
+    display: inline-block;
+}
+div.flex-body > div.flex-row > div.buttonLinks > p {
+    color: black;
+    margin-top: 0;
+}
+div.flex-body > div.flex-row {
+    text-align: center;
+}
+
 
 /* This is when on slightly smaller screens but not mobile */
 @media screen and (max-device-width: 825px) {
