@@ -188,18 +188,10 @@ div.newsContainer > hr.strongHR {
     }
 
     /* This is phones */
-    /* @media screen and (max-device-width: 507px) {
-        div.flex-body > div.flex-row > div.buttonLinks {
-            display: block;
-            margin: 0 auto 1 auto;
-        }
-
+    @media screen and (max-device-width: 507px) {
         div.buttonLinks > p {
             margin-top: 0;
         }
-        div.buttonLinks > p#locations {
-            margin: 5px 10px;
-        }
-    } */
+    }
 }
 
